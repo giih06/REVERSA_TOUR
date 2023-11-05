@@ -1,0 +1,49 @@
+@charset "UTF-8";
+ 
+
+.elemento {
+    opacity: 1;
+    transition: opacity 1s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+body {
+    background: rgb(217,181,197);
+    background: radial-gradient(circle, rgba(217,181,197,1) 43%, rgba(94,66,78,1) 100%);
+}
+
+::-webkit-scrollbar { /*esconde a scroll bar*/
+    width: 0;
+    background: transparent;
+}
+
+.agradecimentos {
+    background-color: black;
+}
+
+.agradecimentos > h1 {
+    font-family: 'Zeb';
+}
+
+.agradecimentos > p {
+    font-weight: bolder;
+}
+
+
+.col > p, h1 {
+    font-family: 'Torsai';
+}
+
+@font-face {
+    font-family: 'Torsai';
+    src: url(fonts/Torstai\ perjantai.ttf);
+}
+
+@font-face {
+    font-family: 'Zeb';
+    src: url(fonts/Zebulon\ Condensed\ Bold.otf);
+}
