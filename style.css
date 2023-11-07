@@ -16,6 +16,14 @@ body {
     background: radial-gradient(circle, rgba(217,181,197,1) 43%, rgba(94,66,78,1) 100%);
 }
 
+.transitionZoom {
+    transition: transform 1s;
+}
+
+.transitionZoom:hover {
+    transform: scale(1.2);
+}
+
 ::-webkit-scrollbar { /*esconde a scroll bar*/
     width: 0;
     background: transparent;
